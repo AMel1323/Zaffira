@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+.secao_capa {
+    background-image: url('../../../public/banner-zaffira.png');
+    height: 90vh;
+    background-size: cover;
+    background-position:  center right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    font-family: 'Andada Pro', serif;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: right;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 600px;
+}
+
+@keyframes fadeIn {
+   0%{
+    opacity: 0;
+    transform: translateY(40px);
+   }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.texto h2 {
+    font-size: 36px;
+    color: rgb(184, 149, 37);
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Andada Pro', serif;
+}
+    .texto h1 {
+        font-size: 65px;
+        color: rgb(148, 92, 9);
+        margin: 0;
+        font-weight: 700;
+        font-family: 'Playfair', serif;
+    } 
+
+    /*Responsividade*/
+    @media (max-width: 768px) {
+        .texto {
+            align-items: center;
+            text-align: center;
+           
+
+        }
+
+        .texto h2 {
+            font-size: 24px;
+        }
+        .texto h1 {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .texto h2 {
+            font-size: 20px;
+        }
+        .texto h1 {
+            font-size: 32px;
+        }
+    }

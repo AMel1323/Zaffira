@@ -1,9 +1,11 @@
+import estilos from './Topo.module.css' 
+
 export default function Topo() {
     return(
-        <header>
-            <div>
+        <header >
+            <div className={estilos.topo}>
                 <picture>
-                    <a href=""><img src="./logo-Zaffira.png"/></a>
+                    <a href=""><img src="./logo-zaffira.png"/></a>
                 </picture>
 
                 <nav>
