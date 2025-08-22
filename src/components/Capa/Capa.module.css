@@ -40,14 +40,14 @@
 
 .texto h2 {
     font-size: 36px;
-    color: rgb(92, 0, 17);
+    color:   rgb(76, 0, 15);
     font-weight: 400;
     margin-bottom: 10px;
     font-family: 'Andada Pro', serif;
 }
     .texto h1 {
         font-size: 65px;
-        color: rgb(76, 0, 15);
+        color: rgb(105, 1, 20);
         margin: 0;
         font-weight: 700;
         font-family: 'Playfair', serif;

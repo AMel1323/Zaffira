@@ -5,6 +5,7 @@ export default function Capa() {
         <section className={estilos.secao_capa}>
             <div className={estilos.texto}>
                 <h2>Onde cada passo é</h2>
+                
                 <h1> PURA ELEGÂNCIA!</h1>
             </div>
         </section>

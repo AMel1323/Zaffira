@@ -37,7 +37,7 @@ export default function Produtos() {
                     </div>
 
                     <div className={estilos.card_sapato}>
-                        <span className={estilos.selo}>Mais Vendido</span>
+                        <span className={estilos.selo}>Destaque</span>
                         <h3>Scarpin laço</h3>
                         <picture>
                             <img src='./salto-laco.png' alt='salto-laco' />
@@ -48,7 +48,7 @@ export default function Produtos() {
                     </div>
 
                      <div className={estilos.card_sapato}>
-                        <span className={estilos.seloNovo}>Novo</span>
+                        <span className={estilos.seloNovo}>Novo Destaque</span>
                         <h3>Salto SYL - Saint Laurent</h3>
                         <picture>
                             <img src='./syl-salto.png' alt='syl-salto' />
